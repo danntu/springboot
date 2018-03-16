@@ -1,0 +1,5 @@
+kz/danntu/service/CustomerService.class
+kz/danntu/domain/CustomerRepository.class
+kz/danntu/web/CustomerController.class
+kz/danntu/domain/Customer.class
+kz/danntu/Application.class
