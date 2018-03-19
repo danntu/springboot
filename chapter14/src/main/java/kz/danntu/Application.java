@@ -19,7 +19,9 @@ public class Application {
     @RequestMapping("/")
     String hello(){
         return "<b>Hello world and people</b>";
+        String n;
     }
+
 
     public static void main(String[] args) {
         SpringApplication.run(Application.class);
