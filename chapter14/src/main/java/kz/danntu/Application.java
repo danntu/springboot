@@ -19,7 +19,6 @@ public class Application {
     @RequestMapping("/")
     String hello(){
         return "<b>Hello world and people</b>";
-        String n;
     }
 
 
