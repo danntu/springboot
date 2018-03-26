@@ -11,4 +11,9 @@ public class MyController {
         model.addAttribute("msg","a war packaging example");
         return "myView";
     }
+    @RequestMapping("/app")
+    public String handler2(Model model){
+        model.addAttribute("msg2","a message controller");
+        return "my-page";
+    }
 }
